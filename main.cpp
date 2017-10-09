@@ -1,7 +1,7 @@
 //井字棋(tictactoe)我决定只让AI先手吧……
 #include<iostream>
 #include <windows.h>
-#define DEPTH 5
+#define DEPTH 4
 void arraycopy33(int(*source)[3], int(*destiniation)[3])
 {
 	for (int i = 0; i < 3; i++)
